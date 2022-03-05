@@ -19,9 +19,16 @@ export const projects = [
     title: "NYC Restaurants searching app",
     subtitle: "React, Web API and MongoDB",
     description:
-      "This project is one of the assignments that assigned in the web programming course at college. The app allows you to search restaurants in NYC, also filter depends on the destricts in NYC. The project was for practice of Recat, Web API and MongoDB. Also it uses libralies such as Lodash, Moment.js, Leaflet, JQuery, and Bootstrap.",
+      "This project is one of the assignments that assigned in the web programming course at college. The app allows you to search restaurants in NYC, also filter by the destricts in NYC. The project was for practice of Recat, Web API and MongoDB. Also it uses libralies such as Lodash, Moment.js, Leaflet, JQuery, and Bootstrap.",
     image: "../images/project-3.png",
     link: "https://my-app-three-alpha.vercel.app/Restaurants",
+  },
+  {
+    title: "Amazon 2020 clone project",
+    subtitle: "React, Firebase for deployment and batadase",
+    description: "Comming soon",
+    image: "",
+    link: "",
   },
 ];
 
