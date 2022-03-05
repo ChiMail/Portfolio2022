@@ -71,14 +71,14 @@ export const skills = [
 
 export const testimonials = [
   {
-    company: "Tenatch, Co-founder",
+    company: "Tenatch, CEO & Co-founder",
     name: "David",
     image: "../images/david2.jpg",
     quote:
       "Chihiro is a self-starter, and can work with minimal supervision. Always positive and a team player, overall a good person to have on your team. Able to understand programming concepts, and figure out things, even when the manual is missing.",
   },
   {
-    company: "Tenatch, Co-founder",
+    company: "Tenatch, CRO & Co-founder",
     name: "Nick",
     image: "../images/sample.jpg",
     quote: "message",
