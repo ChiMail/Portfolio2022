@@ -27,7 +27,7 @@ export const projects = [
     title: "Amazon 2020 clone project",
     subtitle: "React, Firebase for deployment and batadase",
     description: "Comming soon",
-    image: "",
+    image: "../images/project-4.png",
     link: "",
   },
 ];
