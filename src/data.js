@@ -73,6 +73,8 @@ export const testimonials = [
   {
     company: "Tenatch, CEO & Co-founder",
     name: "David",
+    japaneseMessage: false,
+    japanese: "",
     image: "../images/david2.jpg",
     quote:
       "Chihiro is a self-starter, and can work with minimal supervision. Always positive and a team player, overall a good person to have on your team. Able to understand programming concepts, and figure out things, even when the manual is missing.",
@@ -80,19 +82,27 @@ export const testimonials = [
   {
     company: "Tenatch, CRO & Co-founder",
     name: "Nick",
+    japaneseMessage: false,
+    japanese: "",
     image: "../images/sample.jpg",
     quote: "message",
   },
   {
     company: "Print three, Manager",
     name: "Nao",
+    japaneseMessage: false,
+    japanese: "",
     image: "../images/sample.jpg",
     quote: "message",
   },
   {
     company: "Cleanup Co. Japan, Joetsu Showroom Manager",
     name: "Naoko",
-    image: "../images/sample.jpg",
-    quote: "message",
+    japaneseMessage: true,
+    japanese:
+      "千尋さんは前向きで、新しいことにも積極的に挑戦する性格です。その性格は職場の雰囲気を明るくしてくれました。仕事ではお客様のご要望を正確に把握するように努め、決められた条件の中で最適な提案が出来るように工夫をしていました。丁寧で誠実な仕事振りはお客様からも信頼されていました。他の仕事をしても同じように力を発揮してくれると思います。",
+    image: "../images/naoko2.jpg",
+    quote:
+      "Chihiro is a positive person and has a personality to actively challenge new things. Her personality brightened the atmosphere of the workplace. Also, she has always tried to understand the needs of customers better, and proposed products that are specifically tailored to their needs within the set conditions. The polite and sincere work behavior was trusted by our customers as well. I think that even if she work in other fields, she will demonstrate her full potential.",
   },
 ];

@@ -19,7 +19,7 @@ const About = () => {
             Also, I had my interests in computer programming since I used a CAD
             software for drawing blueprints at the showroom. <br />
             For further study, I started learning computer programming at Seneca
-            College and guradueted with GPA 3.9 out of 4.0.
+            College and guradueted with honours (GPA 3.9 out of 4.0).
             <br />
             Currently seeking for opportunities to have more experiences in the
             programming field.

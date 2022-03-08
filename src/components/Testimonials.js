@@ -1,6 +1,8 @@
 import React from "react";
 import { ThumbUpIcon, UsersIcon } from "@heroicons/react/solid";
 import { testimonials } from "../data";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 
 const Testimonials = () => {
   return (
@@ -21,6 +23,32 @@ const Testimonials = () => {
                 <p className="leading-relaxed mb-6 text-white">
                   {testimonial.quote}
                 </p>
+
+                {testimonial.japaneseMessage ? (
+                  <Popup
+                    trigger={
+                      <button className="rounded bg-green-400 leading-relaxed mb-6 pl-4 pr-4 text-white">
+                        Original message in Japanese
+                      </button>
+                    }
+                    modal
+                  >
+                    <div className="h-full bg-gray-800 p-8 rounded container px-5 py-10 mx-auto text-center">
+                      <h1
+                        className="pb-3 mb-6 text-white"
+                        style={{
+                          borderBottom: "2px solid white",
+                        }}
+                      >
+                        Original Message
+                      </h1>
+                      <span className="text-white">{testimonial.japanese}</span>
+                    </div>
+                  </Popup>
+                ) : (
+                  <p></p>
+                )}
+
                 <div className="inline-flex items-center">
                   <img
                     alt="testimonial"
