@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "My first Portfolio",
-    subtitle: "HTML, Javascript and Bpptstrap",
+    subtitle: "HTML, Javascript and Bootstrap",
     description:
       "Created in 2021 for my first portfolio. It uses only simple HTML, JavaScript and Bootstrap to show my understanding for those basic skills.",
     image: "../images/project-1.png",
@@ -24,11 +24,12 @@ export const projects = [
     link: "https://my-app-three-alpha.vercel.app/Restaurants",
   },
   {
-    title: "Amazon 2020 clone project",
-    subtitle: "React, Firebase for deployment and batadase",
-    description: "Comming soon",
+    title: "Full E-Comm Store: Amazon 2020 clone project",
+    subtitle:
+      "React based application, Firebase for deployment and database/authentication",
+    description: "Coming soon",
     image: "../images/project-4.png",
-    link: "",
+    link: "https://clone-64509.web.app/",
   },
 ];
 
