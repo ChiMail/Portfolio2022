@@ -17,7 +17,7 @@ const Contact = () => {
       .join("&");
   }
   function handleSubmit(e) {
-    // Showing alart to the browser
+    // Showing alert to the browser
     e.preventDefault();
     fetch("/", {
       method: "POST",
@@ -97,7 +97,7 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5 text-white">
-            If you have any quetions, or just want to say hello, feel free to
+            If you have any questions, or just want to say hello, feel free to
             contact me!
           </p>
           <div className="relative mb-4">

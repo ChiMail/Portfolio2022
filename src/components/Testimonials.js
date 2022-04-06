@@ -20,49 +20,56 @@ const Testimonials = () => {
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 p-8 rounded">
                 <ThumbUpIcon className="block w-8 text-green-400 mb-4" />
-                <p className="leading-relaxed mb-6 text-white">
-                  {testimonial.quote}
-                </p>
 
-                {testimonial.japaneseMessage ? (
-                  <Popup
-                    trigger={
-                      <button className="rounded bg-green-400 leading-relaxed mb-6 pl-4 pr-4 text-white">
-                        Original message in Japanese
-                      </button>
-                    }
-                    modal
-                  >
-                    <div className="h-full bg-gray-800 p-8 rounded container px-5 py-10 mx-auto text-center">
-                      <h1
-                        className="pb-3 mb-6 text-white"
-                        style={{
-                          borderBottom: "2px solid white",
-                        }}
+                <div className="grid justify-items-center items-center h-full">
+                  <div className="mb-10">
+                    <p className="leading-relaxed mb-6 text-white">
+                      {testimonial.quote}
+                    </p>
+
+                    {testimonial.japaneseMessage ? (
+                      <Popup
+                        trigger={
+                          <button className="rounded bg-green-400 leading-relaxed mb-6 pl-4 pr-4 text-white">
+                            Original message in Japanese
+                          </button>
+                        }
+                        modal
                       >
-                        Original Message
-                      </h1>
-                      <span className="text-white">{testimonial.japanese}</span>
-                    </div>
-                  </Popup>
-                ) : (
-                  <p></p>
-                )}
+                        <div className="h-full bg-gray-800 p-8 rounded container px-5 py-10 mx-auto text-center">
+                          <h1
+                            className="pb-3 mb-6 text-white"
+                            style={{
+                              borderBottom: "2px solid white",
+                            }}
+                          >
+                            Original Message
+                          </h1>
+                          <span className="text-white">
+                            {testimonial.japanese}
+                          </span>
+                        </div>
+                      </Popup>
+                    ) : (
+                      <p></p>
+                    )}
 
-                <div className="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src={process.env.PUBLIC_URL + testimonial.image}
-                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-green-400">
-                      {testimonial.name}
-                    </span>
-                    <span className="text-white text-xl font-medium">
-                      {testimonial.company}
-                    </span>
-                  </span>
+                    <div className="inline-flex items-center">
+                      <img
+                        alt="testimonial"
+                        src={process.env.PUBLIC_URL + testimonial.image}
+                        className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                      />
+                      <span className="flex-grow flex flex-col pl-4">
+                        <span className="title-font font-medium text-green-400">
+                          {testimonial.name}
+                        </span>
+                        <span className="text-white text-xl font-medium">
+                          {testimonial.company}
+                        </span>
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

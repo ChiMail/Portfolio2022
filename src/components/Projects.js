@@ -25,7 +25,7 @@ const Projects = () => {
               without
               rel="noreferrer"
             >
-              <div className="flex relative">
+              <div className="flex relative min-h-full">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"

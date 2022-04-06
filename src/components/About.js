@@ -12,21 +12,19 @@ const About = () => {
           </h1>
           <p className="mb-8 leading-relaxed">
             After five years of the interior showroom advisor experience in
-            Japan, I got interested in moveing to Canada to improve my English
-            skills. I moved to Toronto in 2017, and I fell in love with Toronto.{" "}
+            Japan, I got interested in moving to Canada to improve my English
+            skills. I moved to Canada in 2017, and I fell in love with Toronto.{" "}
             <br />
-            <br />
-            Also, I had my interests in computer programming since I used a CAD
+            I had my interests in computer programming since I used a CAD
             software for drawing blueprints at the showroom. <br />
             For further study, I started learning computer programming at Seneca
-            College and guradueted with honours (GPA 3.9 out of 4.0).
+            College and graduated with honours in Dec. 2021(GPA 3.9 out of 4.0).
             <br />
             Currently seeking for opportunities to have more experiences in the
             programming field.
             <br />
-            <br />
             I'm an independent and self-motivated person with passion for
-            creating product cooporating with clients and co-workers. It is the
+            creating products cooperating with clients and co-workers. It is the
             most fun thing for me!
             <br />
           </p>
